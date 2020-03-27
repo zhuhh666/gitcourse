@@ -41,7 +41,7 @@ export const Step = types
         method: 'POST',
         mode: 'cors',
         body: JSON.stringify({
-          "AttachStdin": true,
+          "AttachStdin": false,
           "AttachStdout": true,
           "AttachStderr": true,
           "Cmd": ["bash", "-c", script],
