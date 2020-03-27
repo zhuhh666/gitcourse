@@ -27,7 +27,7 @@ class App extends Component {
               GitCourse
             </div>
             <Menu
-                theme="dark"
+                theme="red"
                 mode="horizontal"
                 style={{lineHeight: '64px', float: 'right', cursor: 'pointer'}}
                 selectable={false}
